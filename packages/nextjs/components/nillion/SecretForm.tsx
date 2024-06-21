@@ -88,7 +88,7 @@ const SecretForm: React.FC<SecretFormProps> = ({
           onChange={e => setSecret(e.target.value)}
           required
           disabled={isDisabled}
-          className={`mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
+          className={`mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
             isDisabled ? "cursor-not-allowed bg-gray-100" : "bg-white"
           }`}
         />
@@ -106,7 +106,7 @@ const SecretForm: React.FC<SecretFormProps> = ({
             value={permissionedUserIdForComputeSecret}
             onChange={e => setPermissionedUserIdForComputeSecret(e.target.value)}
             disabled={isDisabled}
-            className={`mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
+            className={`mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
               isDisabled ? "cursor-not-allowed bg-gray-100" : "bg-white"
             }`}
           />
@@ -124,7 +124,7 @@ const SecretForm: React.FC<SecretFormProps> = ({
             value={permissionedUserIdForRetrieveSecret}
             onChange={e => setPermissionedUserIdForRetrieveSecret(e.target.value)}
             disabled={isDisabled}
-            className={`mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
+            className={`mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
               isDisabled ? "cursor-not-allowed bg-gray-100" : "bg-white"
             }`}
           />
@@ -142,7 +142,7 @@ const SecretForm: React.FC<SecretFormProps> = ({
             value={permissionedUserIdForUpdateSecret}
             onChange={e => setPermissionedUserIdForUpdateSecret(e.target.value)}
             disabled={isDisabled}
-            className={`mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
+            className={`mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
               isDisabled ? "cursor-not-allowed bg-gray-100" : "bg-white"
             }`}
           />
@@ -160,7 +160,7 @@ const SecretForm: React.FC<SecretFormProps> = ({
             value={permissionedUserIdForDeleteSecret}
             onChange={e => setPermissionedUserIdForDeleteSecret(e.target.value)}
             disabled={isDisabled}
-            className={`mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
+            className={`mt-1 block w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm ${
               isDisabled ? "cursor-not-allowed bg-gray-100" : "bg-white"
             }`}
           />
@@ -170,7 +170,7 @@ const SecretForm: React.FC<SecretFormProps> = ({
       <button
         type="submit"
         disabled={isDisabled}
-        className={`mt-4 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
+        className={`mt-4 inline-flex justify-center py-2 px-4 text-black border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
           isDisabled ? "opacity-75 cursor-not-allowed bg-indigo-400" : "bg-indigo-600"
         }`}
       >
